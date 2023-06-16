@@ -1,39 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-        <title>Categorie</title>
-        <link rel="stylesheet" href="stylesheet/stylesheet.css">
-        <style>
-              h3:hover {
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous"
+    >
+    <title>Categorie</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .menu {
+            position: absolute;
+            top: 50px;
+            right: 75px;
+        }
+        h3:hover {
             color: orange;
         }
+
         a {
             color: grey;
+            margin-bottom: 20px;
+            margin-right: 50px;
+            text-decoration: none;
         }
-        /* .icon>hover {
-            color: orange;
-        }    */
-        a:hover .icon {
-        filter: invert(53%) sepia(98%) saturate(3039%) hue-rotate(343deg) brightness(106%) contrast(107%);
-    }
-        </style>
 
-    </head>
+        .icon {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+
+        a:hover + .icon {
+            filter: invert(53%) sepia(98%) saturate(3039%) hue-rotate(343deg) brightness(106%) contrast(107%);
+            color: orange;
+        }
+
+        .link-container {
+            text-align: center;
+        }
+
+        .absolute-container {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table td a {
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+            display: block;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        table td:hover a {
+            color: orange;
+        }
+
+        table td {
+            border: none;
+        }
+
+        table td:hover {
+            color: orange;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: -10px;
+        }
+
+        .logo {
+            position: relative;
+            top: 60px;
+            right: -60px;
+        }
+
+        .table-container {
+            margin-top: 150px; /* Adjust the margin-top value to move the table up or down */
+        }
+
+        table tr:last-child td a {
+            color: grey;
+        }
+
+        table tr:last-child td a:hover {
+            color: orange;
+        }
+
+        table tr:last-child td {
+            border: none;
+        }
+
+        table tr:last-child td:hover {
+            color: orange;
+        }
+    </style>
+</head>
+
 <body>
-    <a href="" style="text-decoration: none; display: inline-block;" class="instroom-link">
-        <img class="icon" src="resources/images/instroom.svg" alt="instroom"> 
-        <h3>instroom</h3>
-    </a>
-    <a href="" style="text-decoration: none; display: inline-block;" class="doorstroom-link">
-        <img class="icon" src="resources/images/staircase.svg" alt="staircase">
-        <h3>doorstroom</h3>
-    </a>
-    <a href="" style="text-decoration: none; display: inline-block;" class="uitstroom-link">
-        <img class="icon" src="resources/images/uitrstromen.svg" alt="uitstroom">
-        <h3>uitstroom</h3>
+    <div class="row">
+        <div class="col-12">
+            <img class="logo" src="resources/images/logo.png" alt="logo">
+        </div>
+    </div>
+
+    <div class="link-container">
+        <div class="text-center">
+            <div class="flex-container">
+                <div class="section">
+                    <a href="" style="text-decoration: none; display: inline-block;" class="instroom-link">
+                        <img class="icon" src="resources/images/instroom.svg" alt="instroom">
+                        <h3>instroom</h3>
+                    </a>
+                </div>
+                <div class="section">
+                    <a href="" style="text-decoration: none; display: inline-block;" class="doorstroom-link">
+                        <img class="icon" src="resources/images/staircase.svg" alt="staircase">
+                        <h3>doorstroom</h3>
+                    </a>
+                </div>
+                <div class="section">
+                    <a href="" style="text-decoration: none; display: inline-block;" class="uitstroom-link">
+                        <img class="icon" src="resources/images/uitrstromen.svg" alt="uitstroom">
+                        <h3>uitstroom</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center table-container">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td><a href="">Medewerkerstevreden-<br>heidsonderzoeken<br>(MTO)</a></td>
+                    <td><a href="">Opleiding, training en<br> coaching</a></td>
+                    <td><a href="">Human resource devel-<br>opment (HRD)</a></td>
+                    <td><a href="">Leiderschap ontwikkel-<br>ing / Management <br>Development</a></td>
+                    <td><a href="">Loopbaanmanagement</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Arbeidsomstan-<br>digheden</a></td>
+                    <td><a href="">Taakrotatie, -verbred-<br>ing en taakverrijking:<br>Jobcrafting</a></td>
+                    <td><a href="">Duurzame <br>inzetbaarheid</a></td>
+                    <td><a href="tool-instruments.html">Cultuurverandering</a></td>
+                    <td><a href="">Organisatie<br>ontwikkeling</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Functiehuis, rolom-<br>schrijving en func-<br>tiewaardering</a></td>
+                    <td><a href="">Beloning en belon-<br>ingssystematiek</a></td>
+                    <td><a href="">People analytics of HR<br> analytics</a></td>
+                    <td><a href="">People analytics of HR <br>analytics</a></td>
+                    <td><a href="">People analytics of HR <br>analytics</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <img class="menu" src="resources/images/menu.svg" alt="menu">
 </body>
+
 </html>
