@@ -29,6 +29,13 @@ body * {
 canvas { 
     display: block; 
 } 
+.material-symbols-outlined {
+z-index: 9999;
+}
+.navbar {
+    
+    padding: 20px;
+}
 
 #particles-js { 
     width: 100vw; 
