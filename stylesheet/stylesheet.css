@@ -98,3 +98,30 @@ z-index: 9999;
     text-decoration: none;
   }
   
+  .navbar-brand {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    top: 70px;
+    right: 25px;
+}
+
+/* Mobile Optimizations */
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        left: 10px;
+    }
+
+    .material-symbols-outlined {
+        right: 10px;
+    }
+
+    .jumbotron {
+        margin-right: 0;
+    }
+}
