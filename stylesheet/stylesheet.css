@@ -110,6 +110,7 @@ z-index: 9999 !IMPORTANT;
   .nav-item.off-canvas-item ul li a:hover {
     text-decoration: none;
   }
+<<<<<<< HEAD
   
   .navbar-brand {
     position: absolute;
@@ -883,3 +884,6 @@ z-index: 999;
 background-color: transparent;
 border:none;
 }
+=======
+  
+>>>>>>> parent of dcbd717 (Update stylesheet.css)
