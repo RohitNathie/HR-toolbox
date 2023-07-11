@@ -3,194 +3,65 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   <title>Categorie</title>
   <link rel="stylesheet" href="stylesheet/stylesheet.css">
-  <style>
-
-body {
-  background-color: white;
-}
-
-.menu {
-  position: absolute;
-  top: 50px;
-  right: 75px;
-}
-
-a {
-  color: grey;
-  margin-bottom: 20px;
-  margin-right: 50px;
-  text-decoration: none;
-}
-
-.icon {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
-
-a:hover+.icon {
-  filter: invert(53%) sepia(98%) saturate(3039%) hue-rotate(343deg) brightness(106%) contrast(107%);
-  color: orange;
-}
-
-.link-container {
-  text-align: center;
-  margin: 100px 0 50px;
-}
-
-.section {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-h3:hover {
-  color: orange;
-}
-
-.absolute-container {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
-
-.flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-table td a {
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-  display: block;
-  text-align: center;
-  line-height: 1.5;
-}
-
-table td:hover a {
-  color: orange;
-}
-
-table td,
-table tr:last-child td {
-  border: none;
-}
-
-table td:hover,
-table tr:last-child td:hover {
-  color: orange;
-}
-
-.logo {
-  position: relative;
-  top: 60px;
-  right: -60px;
-}
-
-.table-container {
-  margin-top: 150px;
-}
-
-table tr:last-child td a {
-  color: grey;
-}
-
-table tr:last-child td a:hover {
-  color: orange;
-}
-
-body {
-  position: relative;
-}
-
-.navbar {
-  z-index: 9999;
-}
-
-.container,
-.link-container,
-.table-container {
-  position: relative;
-  z-index: 2;
-}
-
-.icon {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
-
-.section {
-  text-align: center;
-  margin: 0 20px;
-}
-
-.section:last-child {
-  margin-right: 0;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
-  margin-top: 50px;
-}
-
-.grid-item a {
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-  display: block;
-  text-align: center;
-  line-height: 1.5;
-}
-
-.grid-item a:hover {
-  color: orange;
-}
-
-@media (max-width: 1200px) {
-  .grid-container {
-    grid-template-columns: repeat(4, 1fr);
+<style>
+  .link-container {
+    text-align: center;
+    margin: 100px 0 50px;
   }
-}
 
-@media (max-width: 992px) {
   .grid-container {
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    margin-top: 50px;
   }
-}
 
-@media (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr);
+  .grid-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    line-height: 1.5;
   }
-}
 
-@media (max-width: 576px) {
-  .grid-container {
-    grid-template-columns: repeat(1, 1fr);
+  .grid-item a:hover {
+    color: orange;
   }
-}
 
+  @media (max-width: 1200px) {
+    .grid-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
 
-  </style>
+  @media (max-width: 992px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 576px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+</style>
 </head>
 
-<body>
+<body class="#tool-categories">
 
   <nav class="navbar fixed-top navbar-dark bg-dark" style="background-color: #ffffff00 !important;" aria-label="Main navigation">
     <div class="container-fluid">
