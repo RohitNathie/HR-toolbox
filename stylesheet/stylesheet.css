@@ -99,12 +99,20 @@ font-variation-settings:
 'opsz' 48
 }
 
+.material-symbols-outlined {
+z-index: 9999 !IMPORTANT;
+}
+
 
 .nav-item.off-canvas-item ul li a:hover {
 text-decoration: none;
 }
+<<<<<<< HEAD
 
 .center-title {
     display: flex;
     justify-content: center;
 }
+=======
+  
+>>>>>>> parent of dcbd717 (Update stylesheet.css)
