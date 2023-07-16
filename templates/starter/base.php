@@ -16,8 +16,9 @@
         <div id="particles-js"> </div>
 
         <!--- Content -->
+        <div class="child-container">
 
-
+        </div>
         <!--- Content ends here -->
 
         <!--- Footer -->
