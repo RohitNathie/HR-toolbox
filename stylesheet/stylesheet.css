@@ -1,0 +1,253 @@
+<<<<<<< Updated upstream
+=======
+/* Global Styles */
+body {
+  background-color: rgb(249, 249, 249);
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Important Parent Elements */
+.parent-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Important Child Elements */
+
+.child-container {
+  position: absolute; /* Makes sure the content is on top of the particle.js */
+  top: 0; /* Ensures it's always fixed to the top of the window, through the entire page. */
+  margin-top: 10em;
+  z-index: 2; /* Overlays the div on top of particle.js */
+  padding: 10px;
+  max-width: 1200px;
+}
+
+/* Navbar animation */
+.navbar {
+    transition: background-color 0.3s ease-in-out;
+    max-height: 110px;
+    transition-timing-function: cubic-bezier(5, 0, 0.2, 1);
+}
+
+.navbar.scrolled {
+    background-color: #fff; 
+}
+
+.logo {
+    transition: 0.3s ease-in-out;
+    height: 110px;
+    transition-timing-function: cubic-bezier(5, 0, 0.2, 1);
+
+}
+
+.close {
+    transition: 0.3s ease-in-out;
+}
+
+.scrolled .logo {
+    height: 80px;
+}
+
+.scrolled .close {
+    scale: 0.8;
+}
+
+/* Theme Settings */
+:root {
+  /* Button Template */
+  --btn-color: rgb(227, 163, 6);
+  --btn-fnt-color: rgb(255, 255, 255);
+  --btn-fnt-size: 1.2rem;
+  --btn-font-weight: 600;
+  --btn-border-radius: 0rem;
+  --btn-width: 140px;
+  --fnt-color: rgba(3, 33, 78, 1);
+
+  /* Banner Template Settings */
+  --banner-font-size: 5rem;
+  --subtitle-font-size: 3rem;
+  --subtitle-font-color: rgb(94, 94, 84);
+}
+
+/* Particle.js Container */
+#particles-js {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    48deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(122, 180, 200, 1) 100%
+  );
+  z-index: 1; /* Underlays the entire page */
+  position: fixed; /* Ensures the banner is always on the person's view. */
+  top: 0; /* Ensures it's always fixed to the top of the window, through the entire page. */
+}
+
+/* Banner */
+.banner-overlay {
+  z-index: 2;
+  color: rgb(37, 37, 37);
+  font-family: "Roboto", sans-serif;
+}
+
+/* Off-canvas Menu */
+.offcanvas-collapse {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  overflow-y: auto;
+  visibility: hidden;
+  background-color: #000000;
+  transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.offcanvas-collapse.open {
+  visibility: visible;
+  transform: translateX(-100%);
+}
+
+.off-canvas-item {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 3em;
+  padding: 0 15px;
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+}
+
+.off-canvas-item a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.off-canvas-item a {
+    color: white;
+}
+
+/* Material Symbols */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 48;
+  z-index: 9999;
+}
+
+.nav-item.off-canvas-item ul li a:hover {
+  text-decoration: none;
+}
+
+/* Link Animations */
+.instroom-link,
+.doorstroom-link,
+.uitstroom-link {
+  bottom: 0;
+  transition: 0.5s;
+  border: 0 solid;
+  padding: 12px;
+}
+
+.doorstroom-link,
+.uitstroom-link {
+  transition: 0.5s;
+}
+
+.instroom-link:hover,
+.doorstroom-link:hover,
+.uitstroom-link:hover {
+  background-color: white;
+  transform: scale(1.05);
+  bottom: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0 10px 10px -5px;
+}
+
+a:hover .icon {
+  color: #f6b704;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Search Heading */
+.search-heading {
+  font-size: 36px;
+  font-weight: normal;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Link Container */
+.link-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.link-container h3 {
+  font-size: 35px;
+}
+
+.link-container .icon {
+  width: 100px;
+  height: auto;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0s linear 0.5s;
+  z-index: 998;
+}
+
+.overlay.show {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+.overlay .content {
+  display: inline-block;
+  text-align: left;
+}
+
+.content {
+  position: absolute;
+  top: 30%;
+  left: 200px;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.content a {
+  display: block;
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.content h1 a:hover {
+  color: black;
+}
+
+/* Miscellaneous */
+h3:hover {
+  color: orange;
+}
+>>>>>>> Stashed changes
