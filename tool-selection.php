@@ -41,7 +41,7 @@
                             <h4 class="p-2">Doorstroom</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet scelerisque volutpat.</p>
                         </a>
-                        <a href="#" style="text-decoration: none;" class="tool-link text-dark">
+                        <a href="tool-uitstroom.php" style="text-decoration: none;" class="tool-link text-dark">
                             <div class="display-4">
                                 <i class="bi bi-arrows-move icon"></i>
                             </div>
