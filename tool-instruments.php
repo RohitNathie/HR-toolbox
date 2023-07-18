@@ -62,8 +62,10 @@
                         <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Medewerkerstevredenheidsmonitor</li></a>
                     </ul>
                     <div class="col"><i class="bi bi-person-check"></i> IMPLEMENTATIEPLAN</div>
+                    <ul>
+                        <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Ontwikkelgesprekken</li></a>
+                    </ul>
                     <div class="col"><i class="bi bi-person-down"></i> VOORBEELD</div>
-                    <div class="col"><i class="bi bi-download"></i></col>
                     </div>
                 </div>
             </div>

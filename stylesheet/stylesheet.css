@@ -327,3 +327,31 @@ a:hover .icon {
   list-style: none;
   margin: 0px 0px 5px 20px;
 }
+
+.tool-selection-container {
+  justify-content: space-evenly !important;
+}
+
+
+/* Tool Instruments Container at Tool-Categories / Instroom / Uitstroom / Doorstroom.php */
+.tool-selection-container > a {
+  text-decoration: none !important;
+  color: black !important;
+  text-align: center;
+}
+
+.tool-selection-container > a * {
+  line-height: 32px;
+}
+
+.tool-selection-container a:hover * {
+  color: orange !important;
+}
+
+.categorie-link {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
