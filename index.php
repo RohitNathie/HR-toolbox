@@ -17,8 +17,8 @@
 
     <!--- Content -->
     <div class="child-container">
-      <div class="jumbotron banner-overlay p-5" style="margin-right: 300px; background-color: #ffffff00;">
-        <h1 class="h-1 font-weight-bold" style="font-size: var(--banner-font-size); font-weight: 700;">HR TOOLBOX</h1>
+      <div class="jumbotron m-0 p-0" style="margin-right: 300px; background-color: #ffffff00;">
+        <h1 class="h-1 font-weight-bold" style="font-size: var(--banner-font-size);">HR TOOLBOX</h1>
         <p class="subtitle h-2 font-weight-800" style="color: var(--subtitle-font-color); font-size: var(--subtitle-font-size); font-weight: 600;">DE TOOLBOX VOOR HET MKB</p>
         <p class="pt-2 pb-3">Welkom! Je hebt de HR-toolbox gevonden. je kunt hier instrumenten vinden die jouw helpen om nieuwe medewerkers te werven (instroom), te behouden (doorstroom) en goed los te laten (uitstroom).
           Naast een eenvoudig instrument zijn er ook stappenplannen om het instrument in je organisatie in te bedden toegevoegd en kun je voorbeelden van werkgevers vinden die vertellen waarom het bij hun werkt.</p>
@@ -26,7 +26,7 @@
           <a class="btn text-uppercase" style="background-color: var(--btn-color); color: var(--btn-fnt-color); border-radius: var(--btn-radius); width: var(--btn-width); font-weight: var(--btn-font-weight);" href="tool-selection.php" role="button">Begin</a>
         </p>
 
-        <div class="d-flex align-items-center justify-content-start">
+        <div class="d-flex">
           <img src="resources/images/digilab.jpg" alt="Digilab logo" class="mr-3" style="width: auto; height: 120px;">
           <img src="resources/images/roc.png" alt="RocRivor logo" style="width: auto; height: 120px;">
         </div>
