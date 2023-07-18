@@ -1,6 +1,6 @@
 <!-- Header -->
 
-<nav class="navbar py-5 px-5 fixed-top" style="z-index: 9999;" aria-label="Main navigation">
+<nav class="navbar py-5 px-5 fixed-top" style="z-index: 5 !important;" aria-label="Main navigation">
     <a class="navbar-brand" href="index.php"><img src="resources/images/logo_v2.png" class="logo"></a>
     <button class="navbar-toggler close p-0 border-0 navbarSideCollapse" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
         <span class="material-symbols-outlined"><img src="resources/images/hamburger.svg"></span>

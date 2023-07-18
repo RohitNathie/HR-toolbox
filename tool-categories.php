@@ -17,8 +17,8 @@
 
         <!--- Content -->
         <div class="child-container">
-            <div class="row text-center justify-content-center" style="margin: -75px 0px 0px 0px;">
-                <a href="tool-instroom.php" style="text-decoration: none;" class="tool-link text-dark">
+            <div class="row text-center justify-content-center" style="margin: -150px 0px 0px 0px; z-index: 9999;">
+                <a href="tool-instroom.php" style="text-decoration: none; z-index: 9999;" class="tool-link text-dark">
                     <div class="display-4">
                         <i class="bi bi-arrow-right-short icon"></i>
                     </div>

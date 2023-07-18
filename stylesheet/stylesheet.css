@@ -35,8 +35,9 @@ body {
   position: absolute; /* Makes sure the content is on top of the particle.js */
   top: 0; /* Ensures it's always fixed to the top of the window, through the entire page. */ 
   margin: 200px auto; /* Centers the content and creates equal top and bottom margins. */
-  z-index: 2; /* Overlays the div on top of particle.js */
+  z-index: 9999; /* Overlays the div on top of particle.js */
   padding: 10px;
+
 }
 
 .btn {
@@ -94,11 +95,11 @@ body {
     transition-timing-function: cubic-bezier(5, 0, 0.2, 1); }
 
 .navbar.scrolled {
-    background-color: #fff;
     padding: 20px 30px !important;
      }
 
 .logo {
+    z-index: 9999;
     transition: 0.3s ease-in-out;
     height: 110px;
     transition-timing-function: cubic-bezier(5, 0, 0.2, 1); }
