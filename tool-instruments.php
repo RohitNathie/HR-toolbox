@@ -37,7 +37,9 @@
                     <h4 class="p-2">Uitstroom</h4>
                 </a>
             </div>
-            <div class="row">
+
+
+            <div class="tool-instruments row">
                 <div class="col-8 flex-grow-1">
                 <h3 class="header">TOOLBOX / DOORSTROOM / CULTUURVERANDERING</h3>
                     <h1>CULTUURVERANDERING</h1>

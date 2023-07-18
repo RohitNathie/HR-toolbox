@@ -216,7 +216,7 @@ h3:hover {
 }
 
 
-/* Tool Selection Container at Categories */
+/* Tool Selection Container at Tool-Categories */
 .tool-selection-container {
   display: flex;
   justify-content: center;
@@ -231,4 +231,22 @@ h3:hover {
   align-items: center;
   text-align: center;
 
+}
+
+
+/* Tool Instruments Container at Tool-Instruments.php */
+
+
+
+.instruments-menu .col {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.instruments-menu .col .bi {
+  margin: 0px 10px 0px 0px;
+}
+
+.tool-instruments {
+  margin-top: 70px;
 }
