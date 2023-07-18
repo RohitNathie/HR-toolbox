@@ -18,7 +18,7 @@
         <!--- Content -->
         <div class="child-container">
             <div class="row text-center justify-content-center" style="margin: -75px 0px 0px 0px;">
-                <a href="#" style="text-decoration: none;" class="tool-link text-dark">
+                <a href="tool-instroom.php" style="text-decoration: none;" class="tool-link text-dark">
                     <div class="display-4">
                         <i class="bi bi-arrow-right-short icon"></i>
                     </div>
@@ -39,19 +39,19 @@
             </div>
 
             <div class="fluid-container row tool-selection-container" style="margin: 50px 0px 0px 0px;">
-                <a href="" class="col-lg-4 col-12 categorie-link">
+                <a href="tool-instruments.php" class="col-lg-4 col-12 categorie-link">
                     <h3>Behoud Top 10</h3>
                 </a>
-                <a href="" class="col-lg-4 col-12 categorie-link">
+                <a href="tool-instruments.php" class="col-lg-4 col-12 categorie-link">
                     <h3>Gedragscode</h3>
                 </a>
-                <a href="#" class="col-lg-4 col-12 categorie-link">
+                <a href="tool-instruments.php" class="col-lg-4 col-12 categorie-link">
                     <h3>Gesprekken met medewerkers</h3>
                 </a>
-                <a href="" class="col-lg-4 col-4 col-12 categorie-link">
+                <a href="tool-instruments.php" class="col-lg-4 col-4 col-12 categorie-link">
                     <h3>Intervisie</h3>
                 </a>
-                <a href="" class="col-lg-4 col-4 col-12 categorie-link">
+                <a href="tool-instruments.php" class="col-lg-4 col-4 col-12 categorie-link">
                     <h3>Leven Lang Ontwikkelen</h3>
                 </a>
             </div>
