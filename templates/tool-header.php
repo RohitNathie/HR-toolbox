@@ -3,6 +3,27 @@
 <nav class="navbar d-flex justify-content-between py-5 px-5 fixed-top" style="z-index: 9999 !important;" aria-label="Main navigation">
     <a class="navbar-brand" href="index.php"><img src="resources/images/logo_v2.png" class="logo"></a>
 
+    <div class="row text-center justify-content-between" style="margin: 0px 150px 0px 0px;">
+                <a href="tool-instroom.php" style="text-decoration: none;" class="tool-link text-dark">
+                    <div class="display-4">
+                        <i class="bi bi-arrow-right-short icon"></i>
+                    </div>
+                    <h4 class="p-2">Instroom</h4>
+                </a>
+                <a href="tool-categories.php" style="text-decoration: none;" class="tool-link text-dark">
+                    <div class="display-4">
+                        <i class="bi bi-arrow-repeat icon"></i>
+                    </div>
+                    <h4 class="p-2">Doorstroom</h4>
+                </a>
+                <a href="tool-uitstroom.php" style="text-decoration: none;" class="tool-link text-dark">
+                    <div class="display-4">
+                        <i class="bi bi-arrows-move icon"></i>
+                    </div>
+                    <h4 class="p-2">Uitstroom</h4>
+                </a>
+            </div>
+
     <button class="navbar-toggler close p-0 border-0 navbarSideCollapse" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
         <span class="material-symbols-outlined"><img src="resources/images/hamburger.svg"></span>
     </button>
