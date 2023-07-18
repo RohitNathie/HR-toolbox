@@ -27,7 +27,7 @@
                 </div>
                 <div class="row m-5">
                     <div class="col-12 text-center link-container">
-                        <a href="#" style="text-decoration: none;" class="tool-link text-dark">
+                        <a href="/tool-instroom.php" style="text-decoration: none;" class="tool-link text-dark">
                             <div class="display-4">
                                 <i class="bi bi-arrow-right-short icon"></i>
                             </div>
