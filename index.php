@@ -23,14 +23,9 @@
         <p class="pt-2 pb-3">Welkom! Je hebt de HR-toolbox gevonden. je kunt hier instrumenten vinden die jouw helpen om nieuwe medewerkers te werven (instroom), te behouden (doorstroom) en goed los te laten (uitstroom).
           Naast een eenvoudig instrument zijn er ook stappenplannen om het instrument in je organisatie in te bedden toegevoegd en kun je voorbeelden van werkgevers vinden die vertellen waarom het bij hun werkt.</p>
         <p class="lead">
-          <a class="btn text-uppercase" style="background-color: var(--btn-color); color: var(--btn-fnt-color); border-radius: var(--btn-radius); width: var(--btn-width); font-weight: var(--btn-font-weight);" href="tool-selection.php" role="button">Begin</a>
+          <a class="btn text-uppercase" 
+             href="tool-selection.php" role="button">Zoek jouw tool</a>
         </p>
-
-        <div class="d-flex">
-          <img src="resources/images/digilab.jpg" alt="Digilab logo" class="mr-3" style="width: auto; height: 120px;">
-          <img src="resources/images/roc.png" alt="RocRivor logo" style="width: auto; height: 120px;">
-        </div>
-
         <!--- Content ends here -->
 
         <!--- Footer -->

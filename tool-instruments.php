@@ -41,7 +41,7 @@
 
             <div class="tool-instruments row">
                 <div class="col-8 flex-grow-1">
-                <h3 class="header">TOOLBOX / DOORSTROOM / CULTUURVERANDERING</h3>
+                    <h3 class="header">TOOLBOX / DOORSTROOM / CULTUURVERANDERING</h3>
                     <h1>CULTUURVERANDERING</h1>
                     <div class="parent mt-5">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet scelerisque volutpat.
@@ -51,8 +51,9 @@
 
                 <div class="instruments-menu col-4 flex-shrink-1">
                     <div class="col"><i class="bi bi-person-add"></i> TIPS & TRICKS</div>
+                       <div class>Test</div>
                     <div class="col"><i class="bi bi-person-gear"></i> INSTRUMENTEN</div>
-                    <div class="col"><i class="bi bi-person-check"></i> STAPPENPLAN</div>
+                    <div class="col"><i class="bi bi-person-check"></i> IMPLEMENTATIE</div>
                     <div class="col"><i class="bi bi-person-down"></i> VOORBEELD</div>
                     <div class="col"><i class="bi bi-download"></i></col>
                     </div>
