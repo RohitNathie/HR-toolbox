@@ -257,7 +257,7 @@ h3:hover {
 
 
 .instruments-menu .col {
-  font-size: 30px;
+  font-size: 1.7em;
   font-weight: 500;
 }
 
@@ -267,4 +267,21 @@ h3:hover {
 
 .tool-instruments {
   margin-top: 70px;
+}
+
+
+/* Link overwrites */
+
+.tool-instruments a {
+  color: black;
+}
+
+.tool-instruments a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.instruments-menu ul li {
+  list-style: none;
+  margin: 0px 0px 5px 20px;
 }
