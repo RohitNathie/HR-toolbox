@@ -355,4 +355,10 @@ a:hover .icon {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.categorie-link h3 {
+  font-size: 20px;
+  font-weight: 400;
 }
