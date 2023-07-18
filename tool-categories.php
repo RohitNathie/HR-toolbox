@@ -40,11 +40,14 @@
             </div>
 
             <div class="fluid-container row tool-selection-container" style="margin: 100px 0px 0px 0px;">
-                <div class="col-3">Test</div>
-                <div class="col-3">Test</div>
-                <div class="col-3">Test</div>
-                <div class="col-3">Test</div>
-                <div class="col-3">Test</div>
+                <div class="col-3">Behoud Top 10</div>
+                <div class="col-3">Gedragscode</div>
+                <div class="col-3">Gesprekken met medewerkers</div>
+                <div class="col-3">Intervisie</div>
+                <div class="col-3">Leven Lang Ontwikkelen</div>
+                <div class="col-3">Strategische Persooneelsplanning</div>
+                <div class="col-3">Vitaliteit</div>
+
             </div>
 
         </div>

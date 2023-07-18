@@ -1,3 +1,21 @@
+/* Theme Settings */
+:root {
+  /* Button Template */
+  --btn-color: rgb(227, 163, 6);
+  --btn-color-hover: rgb(241, 189, 59);
+  --btn-fnt-color: rgb(255, 255, 255);
+  --btn-fnt-size: 1.2rem;
+  --btn-font-weight: 600;
+  --btn-border-radius: 1rem;
+  --btn-width: 180px;
+  --fnt-color: rgba(3, 33, 78, 1);
+
+  /* Banner Template Settings */
+  --banner-font-size: 5rem;
+  --subtitle-font-size: 3rem;
+  --subtitle-font-color: rgb(94, 94, 84);
+}
+
 /* Global Styles */
 body {
   background-color: rgb(249, 249, 249);
@@ -16,9 +34,23 @@ body {
 .child-container {
   position: absolute; /* Makes sure the content is on top of the particle.js */
   top: 0; /* Ensures it's always fixed to the top of the window, through the entire page. */ 
-  margin: 175px auto; /* Centers the content and creates equal top and bottom margins. */
+  margin: 200px auto; /* Centers the content and creates equal top and bottom margins. */
   z-index: 2; /* Overlays the div on top of particle.js */
   padding: 10px;
+}
+
+.btn {
+  background-color: var(--btn-color); 
+  color: var(--btn-fnt-color) !important; 
+  border-radius: var(--btn-radius); 
+  width: var(--btn-width); 
+  font-weight: var(--btn-font-weight) !important;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transition: 0.3s ease-in-out;
+  background-color: var(--btn-color-hover);
 }
 
 /* Settings for each device. */
@@ -57,12 +89,14 @@ body {
 
 /* Navbar animation */
 .navbar {
-    transition: background-color 0.3s ease-in-out;
-    max-height: 110px;
+    transition: 0.3s ease-in-out;
+    max-height: 140px;
     transition-timing-function: cubic-bezier(5, 0, 0.2, 1); }
 
 .navbar.scrolled {
-    background-color: #fff; }
+    background-color: #fff;
+    padding: 20px 30px !important;
+     }
 
 .logo {
     transition: 0.3s ease-in-out;
@@ -78,22 +112,6 @@ body {
 .scrolled .close {
     scale: 0.8; }
 
-/* Theme Settings */
-:root {
-  /* Button Template */
-  --btn-color: rgb(227, 163, 6);
-  --btn-fnt-color: rgb(255, 255, 255);
-  --btn-fnt-size: 1.2rem;
-  --btn-font-weight: 600;
-  --btn-border-radius: 0rem;
-  --btn-width: 140px;
-  --fnt-color: rgba(3, 33, 78, 1);
-
-  /* Banner Template Settings */
-  --banner-font-size: 5rem;
-  --subtitle-font-size: 3rem;
-  --subtitle-font-color: rgb(94, 94, 84);
-}
 
 /* Particle.js Container */
 #particles-js {
@@ -250,7 +268,7 @@ a:hover .icon {
  } */
 
 
-/* Tool Selection Container at Categories */
+/* Tool Selection Container at Tool-Categories */
 .tool-selection-container {
   display: flex;
   justify-content: center;
@@ -273,4 +291,39 @@ a:hover .icon {
   align-items: center;
   text-align: center;
 
+}
+
+
+/* Tool Instruments Container at Tool-Instruments.php */
+
+
+
+.instruments-menu .col {
+  font-size: 1.7em;
+  font-weight: 500;
+}
+
+.instruments-menu .col .bi {
+  margin: 0px 10px 0px 0px;
+}
+
+.tool-instruments {
+  margin-top: 70px;
+}
+
+
+/* Link overwrites */
+
+.tool-instruments a {
+  color: black;
+}
+
+.tool-instruments a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.instruments-menu ul li {
+  list-style: none;
+  margin: 0px 0px 5px 20px;
 }

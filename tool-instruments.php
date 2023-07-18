@@ -37,9 +37,11 @@
                     <h4 class="p-2">Uitstroom</h4>
                 </a>
             </div>
-            <div class="row">
+
+
+            <div class="tool-instruments row">
                 <div class="col-8 flex-grow-1">
-                <h3 class="header">TOOLBOX / DOORSTROOM / CULTUURVERANDERING</h3>
+                    <h3 class="header"><a href="/index.php">TOOLBOX</a> / <a href="/tool-categories.php">DOORSTROOM</a> / CULTUURVERANDERING</h3>
                     <h1>CULTUURVERANDERING</h1>
                     <div class="parent mt-5">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet scelerisque volutpat.
@@ -49,8 +51,17 @@
 
                 <div class="instruments-menu col-4 flex-shrink-1">
                     <div class="col"><i class="bi bi-person-add"></i> TIPS & TRICKS</div>
+                    <ul>
+                    <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Tips voor een goed gesprek</li></a>
+                    </ul>
                     <div class="col"><i class="bi bi-person-gear"></i> INSTRUMENTEN</div>
-                    <div class="col"><i class="bi bi-person-check"></i> STAPPENPLAN</div>
+                    <ul>
+                        <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Planningsgesprek</li></a>
+                        <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Ontwikkelgesprek</li></a>
+                        <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Beloningsgesprekken</li></a>
+                        <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Medewerkerstevredenheidsmonitor</li></a>
+                    </ul>
+                    <div class="col"><i class="bi bi-person-check"></i> IMPLEMENTATIEPLAN</div>
                     <div class="col"><i class="bi bi-person-down"></i> VOORBEELD</div>
                     <div class="col"><i class="bi bi-download"></i></col>
                     </div>
