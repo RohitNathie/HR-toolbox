@@ -40,10 +40,10 @@
             </div>
 
             <div class="fluid-container row tool-selection-container" style="margin: 50px 0px 0px 0px;">
-                <a href="" class="col-lg-6 col-12 categorie-link">
+                <a href="tool-categories.php" class="col-lg-6 col-12 categorie-link">
                     <h3>Exitgesprek</h3>
                 </a>
-                <a href="" class="col-lg-6 col-12 categorie-link">
+                <a href="tool-categories.php" class="col-lg-6 col-12 categorie-link">
                     <h3>Verzuim</h3>
                 </a>
             </div>
