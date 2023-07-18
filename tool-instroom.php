@@ -42,19 +42,19 @@
             </div>
 
                 <div class="fluid-container row tool-selection-container" style="margin: 50px 0px 0px 0px;">
-                <a href="tool-categories.php" class="col-lg-4 col-12 categorie-link">
+                <a href="tool-instruments.php" class="col-lg-4 col-12 categorie-link">
                     <h3>Employer Branding</h3>
                 </a>
-                <a href="tool-categories.php" class="col-lg-4 col-12 categorie-link">
+                <a href="tool-instruments.php" class="col-lg-4 col-12 categorie-link">
                     <h3>Onboarding</h3>
                 </a>
-                <a href="tool-categories.php" class="col-lg-4 col-12 categorie-link">
+                <a href="tool-instruments.php" class="col-lg-4 col-12 categorie-link">
                     <h3>Vacature</h3>
                 </a>
-                <a href="tool-categories.php" class="col-lg-4 col-4 col-12 categorie-link">
+                <a href="tool-instruments.php" class="col-lg-4 col-4 col-12 categorie-link">
                     <h3>Werven met een podcast</h3>
                 </a>
-                <a href="tool-categories.php" class="col-lg-4 col-4 col-12 categorie-link">
+                <a href="tool-instruments.php" class="col-lg-4 col-4 col-12 categorie-link">
                     <h3>Inclusief</h3>
                 </a>
             </div>
