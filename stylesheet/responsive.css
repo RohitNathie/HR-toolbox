@@ -1,0 +1,61 @@
+/* Settings for each device. */
+
+/* Mobile */
+@media (max-width: 600px) {
+  .child-container {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .breadcrumb_menu {
+    font-size: 15px;
+  }
+
+  .navbar.scrolled {
+    background-color: #fff !important;
+  }
+
+  .navbar-nav {
+    padding-top: 50px;
+  }
+
+  /* Tablet */
+  @media (min-width: 601px) and (max-width: 900px) {
+    .child-container {
+      max-width: 80%;
+      min-width: 80%;
+    }
+
+    .navbar.scrolled {
+      background-color: #fff !important;
+    }
+
+    .navbar-nav {
+      padding-top: 250px;
+    }
+  }
+
+  /* Desktop */
+  @media (min-width: 901px) and (max-width: 1200px) {
+    .child-container {
+      max-width: 80%;
+      min-width: 80%;
+    }
+
+    .navbar-nav {
+      padding-top: 250px;
+    }
+  }
+
+  /* Large Desktop */
+  @media (min-width: 1201px) {
+    .child-container {
+      max-width: 80%;
+      min-width: 80%;
+    }
+
+    .navbar-nav {
+      padding-top: 250px;
+    }
+  }
+}

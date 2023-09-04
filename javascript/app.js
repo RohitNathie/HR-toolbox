@@ -1,13 +1,14 @@
-particlesJS("particles-js", {
+particlesJS({
   particles: {
-    number: { value: 13, density: { enable: false, value_area: 800 } },
+    number: { value: 12, density: { enable: true, value_area: 1200 } },
     color: { value: "#ffffff" },
     shape: {
       type: "image",
-      stroke: { width: 5, color: "#000000" },
+      stroke: { width: 3, color: "#000000" },
       polygon: { nb_sides: 100 },
-      image: { src: "resources/images/User_iconv2.png", width: 100, height: 100 },
+      image: { src: "resources/images/User_iconv2.png", width: 80, height: 80 },
     },
+
     opacity: {
       value: 100,
       random: false,
@@ -20,7 +21,7 @@ particlesJS("particles-js", {
     },
     line_linked: {
       enable: true,
-      distance: 500,
+      distance: 300,
       color: "#ffffff",
       opacity: 10,
       width: 3,
@@ -31,9 +32,9 @@ particlesJS("particles-js", {
       direction: "random",
       random: true,
       straight: false,
-      out_mode: "bounce",
-      bounce: true,
-      attract: { enable: false, rotateX: 600, rotateY: 1000 },
+      out_mode: "out",
+      bounce: "true",
+      attract: { enable: false, rotateX: 600, rotateY: 600 },
     },
   },
   interactivity: {
@@ -41,7 +42,7 @@ particlesJS("particles-js", {
     events: {
       onhover: { enable: false, mode: "bubble" },
       onclick: { enable: false, mode: "push" },
-      resize: false,
+      resize: true,
     },
     modes: {
       grab: { distance: 400, line_linked: { opacity: 1 } },
@@ -51,23 +52,5 @@ particlesJS("particles-js", {
       remove: { particles_nb: 10 },
     },
   },
-  retina_detect: true,
+  retina_detect: false,
 });
-
-var count_particles, stats, update;
-stats = new Stats();
-stats.setMode(0);
-stats.domElement.style.position = "absolute";
-stats.domElement.style.left = "0px";
-stats.domElement.style.top = "0px";
-document.body.appendChild(stats.domElement);
-count_particles = document.querySelector(".js-count-particles");
-update = function () {
-  stats.begin();
-  stats.end();
-  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-  }
-  requestAnimationFrame(update);
-};
-requestAnimationFrame(update);

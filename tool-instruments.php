@@ -7,7 +7,7 @@
 <body>
 
     <!--- Header -->
-    <?php include "./templates/tool-header.php" ?>
+    <?php include "./templates/tool_header.php" ?>
 
     <!-- Parent container -->
     <div class="parent-container">
@@ -17,19 +17,17 @@
 
         <!--- Content -->
         <div class="child-container">
-
-
             <div class="tool-instruments row">
-                <div class="col-8 flex-grow-1">
-                    <h3 class="header"><a href="/index.php">TOOLBOX</a> / <a href="/tool-categories.php">DOORSTROOM</a> / CULTUURVERANDERING</h3>
+                <div class="col-lg-8 col-12 flex-grow-1">
+                    <h3 class="header breadcrumb_menu"><a href="/index.php">TOOLBOX</a> / <a href="/tool-categories.php">DOORSTROOM</a> / CULTUURVERANDERING</h3>
                     <h1>CULTUURVERANDERING</h1>
-                    <div class="parent mt-5">
+                    <div class="parent">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet scelerisque volutpat.
                             Sed eget massa ut ipsum fermentum gravida vitae quis erat.</p>
                     </div>
                 </div>
 
-                <div class="instruments-menu col-4 flex-shrink-1">
+                <div class="instruments-menu col-lg-4 col-12 flex-shrink-1">
                     <div class="col"><i class="bi bi-person-add"></i> TIPS & TRICKS</div>
                     <ul>
                     <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Tips voor een goed gesprek</li></a>
