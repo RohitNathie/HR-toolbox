@@ -8,15 +8,17 @@
 
     <!--- Header -->
     <?php include "./templates/tool_header.php" ?>
-
     <!-- Parent container -->
     <div class="parent-container">
+
 
         <!--- Particle.js -->
         <div id="particles-js"> </div>
 
         <!--- Content -->
         <div class="child-container">
+            <?php include "./templates/tool_bar.php" ?>
+
             <div class="tool-instruments row">
                 <div class="col-lg-8 col-12 flex-grow-1">
                     <h3 class="header breadcrumb_menu"><a href="/index.php">TOOLBOX</a> / <a href="/tool-categories.php">DOORSTROOM</a> / CULTUURVERANDERING</h3>

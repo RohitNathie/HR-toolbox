@@ -7,6 +7,14 @@
     min-width: 100%;
   }
 
+  .logo {
+    height: 80px;
+  }
+
+  .navbar-nav {
+    padding: 0px 10px 0px 10px;
+  }
+
   .breadcrumb_menu {
     font-size: 15px;
   }
@@ -18,6 +26,7 @@
   .navbar-nav {
     padding-top: 50px;
   }
+
 
   /* Tablet */
   @media (min-width: 601px) and (max-width: 900px) {

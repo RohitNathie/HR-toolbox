@@ -381,3 +381,33 @@ a:hover .icon {
   top: 50px;
   right: 25px;
 }
+
+.navbar .col-4 {
+  position: static;
+}
+
+.tool-bar {
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.tool-bar .bi {
+  font-size: 35px;
+}
+
+.tool-bar .display-4 {
+  padding: 0px;
+  font-size: 0;
+}
+
+.tool-bar .tool-link {
+  width: 150px !important;
+}
+
+.tool-bar {
+  justify-content: center;
+}
+
+.tool-bar .col-4 {
+  flex: 0;
+}
