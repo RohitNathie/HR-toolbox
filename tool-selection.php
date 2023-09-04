@@ -32,7 +32,7 @@
                                 <i class="bi bi-arrow-right-short icon"></i>
                             </div>
                             <h4 class="p-2">Instroom</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet scelerisque volutpat.</p>
+                            <p>Instroom gaat over het in dienst treden bij jouw bedrijf. Alles rondom de werving en selectie van nieuwe medewerkers.</p>
                         </a>
                     </div>
 
@@ -42,7 +42,7 @@
                                 <i class="bi bi-arrow-repeat icon"></i>
                             </div>
                             <h4 class="p-2">Doorstroom</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet scelerisque volutpat.</p>
+                            <p>Doorstroom gaat over de ontwikkeling en het behouden van je medewerker. Denk bijvoorbeeld aan promotie, demotie en bijscholing. Alles om te zorgen voor de juiste match tussen je medewerker en de doelen die je stelt.</p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-12 tool-link">
@@ -51,7 +51,7 @@
                                 <i class="bi bi-arrows-move icon"></i>
                             </div>
                             <h4 class="p-2">Uitstroom</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet scelerisque volutpat.</p>
+                            <p>Uitstroom gaat over het afronden van een dienstverband. Hier zijn veel juridische aspecten van belang, maar ook de zachtere kant zoals een goed exitgesprek.</p>
                         </a>
                     </div>
                 </div>
