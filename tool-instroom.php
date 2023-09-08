@@ -17,6 +17,7 @@
 
         <!--- Content -->
         <div class="child-container">
+        <?php include "./templates/tool_bar.php" ?>
             <div class="fluid-container row tool-selection-container" style="margin: 50px 0px 0px 0px;">
                 <a href="tool-instruments.php" class="col-lg-4 col-12 categorie-link">
                     <div class="text-center">
