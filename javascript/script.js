@@ -7,3 +7,14 @@ window.addEventListener("scroll", function() {
     logo.classList.toggle("small", scrollPosition > 0);
   });
   
+
+  /* Function for active checker on toolbar menu */
+
+  jQuery(function($) {
+    var path = window.location.href; 
+    $('#navbar-toolbar a').each(function() {
+      if (this.href === path) {
+        $(this).addClass('active');
+      }
+    });
+  });

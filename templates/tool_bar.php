@@ -1,4 +1,4 @@
-<div class="tool-bar col-12 flex-grow-1 d-flex text-center">
+<div class="tool-bar mt-3 col-12 flex-grow-1 d-flex text-center" id="navbar-toolbar">
     <div class="col-4 flex-grow-1 tool-link">
         <a href="/instroom.php" style="text-decoration: none;" class="text-dark">
             <div class="display-4">

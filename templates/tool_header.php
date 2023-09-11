@@ -1,11 +1,18 @@
 <!-- Header -->
 
-<nav class="navbar d-flex justify-content-between py-5 px-5 fixed-top" style="z-index: 9999 !important;" aria-label="Main navigation">
-    <a class="navbar-brand" href="index.php"><img src="resources/images/logo_v2.png" class="logo"></a>
-
-    <button class="navbar-toggler close p-0 border-0 navbarSideCollapse" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-        <span class="material-symbols-outlined"><img src="resources/images/hamburger.svg"></span>
-    </button>
+<nav class="navbar fixed-top px-5 py-5 d-flex justify-content-between" style="z-index: 9999 !important;" aria-label="Main navigation">
+    <div class="col-2"><a class="navbar-brand" href="index.php"><img src="resources/images/logo_v2.png" class="logo" alt="VNO-NCW Midden Logo"></a></div>
+    <div class="col-10 flex-grow-1">
+        <nav class="inline-menu">
+            <a href="index.php" class="nav-item">Home</a>
+            <a href="" class="nav-item">Info</a>
+            <a href="tool-instruments.php" class="nav-item">Toolbox</a>
+            <a href="" class="nav-item">Contact</a>
+        </nav>
+    </div>
+        <button class="navbar-toggler close border-0 navbarSideCollapse" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+            <span class="material-symbols-outlined"><img src="resources/images/hamburger.svg" alt="Hamburger menu"></span>
+        </button>
 
 
 
@@ -41,7 +48,4 @@
             </li>
         </div>
     </div>
-
-
-
 </nav>

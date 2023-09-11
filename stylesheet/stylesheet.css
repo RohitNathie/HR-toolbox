@@ -98,10 +98,6 @@ body {
     max-height: 140px;
     transition-timing-function: cubic-bezier(5, 0, 0.2, 1); }
 
-.navbar.scrolled {
-    padding: 20px 30px !important;
-     }
-
 .logo {
     z-index: 9999;
     transition: 0.3s ease-in-out;
@@ -110,12 +106,6 @@ body {
 
 .close {
     transition: 0.3s ease-in-out; }
-
-.scrolled .logo {
-    height: 80px; }
-
-.scrolled .close {
-    scale: 0.8; }
 
 
 /* Particle.js Container */
@@ -373,14 +363,11 @@ a:hover .icon {
 .navbar-toggler {
   position: absolute;
   right: 45px;
-  top: 90px;
+  top: 70px;
   transition: 0.3s;
+  font-weight: 800;
 }
 
-.scrolled .navbar-toggler {
-  top: 50px;
-  right: 25px;
-}
 
 .navbar .col-4 {
   position: static;
@@ -410,4 +397,23 @@ a:hover .icon {
 
 .tool-bar .col-4 {
   flex: 0;
+}
+
+
+/* Navbar */
+.inline-menu a {
+  color: rgba(16, 34, 86, 1);
+  font-size: 1.2em;
+  padding: 0px 7px;
+  text-decoration: none;
+  text-transform: uppercase;}
+
+.inline-menu a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.active *
+{
+  color: orange;
 }

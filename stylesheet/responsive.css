@@ -7,6 +7,11 @@
     min-width: 100%;
   }
 
+  .inline-menu 
+  {
+    display: none;
+  }
+
   .logo {
     height: 80px;
   }
@@ -41,6 +46,11 @@
 
     .navbar-nav {
       padding-top: 250px;
+    }
+
+    .inline-menu 
+    {
+      display: none;
     }
   }
 

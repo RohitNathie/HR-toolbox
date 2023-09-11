@@ -7,7 +7,7 @@
 <body>
 
     <!--- Header -->
-    <?php include "./templates/homepage_header.php" ?>
+    <?php include "./templates/tool_header.php" ?>
 
     <!-- Parent container -->
     <div class="parent-container">
