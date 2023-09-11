@@ -21,7 +21,7 @@
 
             <div class="tool-instruments row">
                 <div class="col-lg-8 col-12 flex-grow-1">
-                    <h3 class="header breadcrumb_menu"><a href="/index.php">TOOLBOX</a> / <a href="/tool-categories.php">DOORSTROOM</a> / CULTUURVERANDERING</h3>
+                    <h3 class="header breadcrumb_menu"><a href="/index.php">TOOLBOX</a> / <a href="//doorstroom.php">DOORSTROOM</a> / CULTUURVERANDERING</h3>
                     <h1>CULTUURVERANDERING</h1>
                     <div class="parent">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet scelerisque volutpat.

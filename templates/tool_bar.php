@@ -1,6 +1,6 @@
 <div class="tool-bar col-12 flex-grow-1 d-flex text-center">
     <div class="col-4 flex-grow-1 tool-link">
-        <a href="/tool-instroom.php" style="text-decoration: none;" class="text-dark">
+        <a href="/instroom.php" style="text-decoration: none;" class="text-dark">
             <div class="display-4">
                 <i class="bi bi-arrow-right-short icon"></i>
             </div>
@@ -11,7 +11,7 @@
     </div>
 
     <div class="col-4 tool-link">
-        <a href="tool-categories.php" style="text-decoration: none;" class="text-dark">
+        <a href="/doorstroom.php" style="text-decoration: none;" class="text-dark">
             <div class="display-4">
                 <i class="bi bi-arrow-repeat icon"></i>
             </div>
@@ -21,7 +21,7 @@
         </a>
     </div>
     <div class="col-4 tool-link">
-        <a href="tool-uitstroom.php" style="text-decoration: none;" class="text-dark">
+        <a href="/uitstroom.php" style="text-decoration: none;" class="text-dark">
             <div class="display-4">
                 <i class="bi bi-arrows-move icon"></i>
             </div>
