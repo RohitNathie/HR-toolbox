@@ -6,7 +6,6 @@ window.addEventListener("scroll", function() {
     header.classList.toggle("scrolled", scrollPosition > 0);
     logo.classList.toggle("small", scrollPosition > 0);
   });
-  
 
   /* Function for active checker on toolbar menu */
 

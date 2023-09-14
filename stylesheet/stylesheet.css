@@ -18,13 +18,16 @@
 
 /* Global Styles */
 body {
-  background: linear-gradient(
-    48deg,
-    rgba(255, 255, 255, 1) 30%,
-    rgba(122, 180, 200, 1) 100%
-  );
-
+  background-color: rgb(0, 0, 0);
   font-family: "Montserrat", sans-serif;
+}
+
+.particles-js-canvas-el {
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background: url('../resources/images/background.jpg'), linear-gradient(48deg, rgba(255,255,255,1) 25%, rgb(154, 190, 197) 100%);;
 }
 
 /* Important Parent Elements */
@@ -110,11 +113,7 @@ body {
 
 /* Particle.js Container */
 .particles-js-canvas-el {
-  background: linear-gradient(
-    48deg,
-    rgba(255, 255, 255, 1) 30%,
-    rgba(122, 180, 200, 1) 100%
-  );
+
   z-index: 0; /* Underlays the entire page */
   position: fixed; /* Ensures the banner is always on the person's view. */
   top: 0; /* Ensures it's always fixed to the top of the window, through the entire page. */
