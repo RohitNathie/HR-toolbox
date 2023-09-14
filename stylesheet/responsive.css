@@ -32,12 +32,15 @@
     padding-top: 50px;
   }
 
-
   /* Tablet */
   @media (min-width: 601px) and (max-width: 900px) {
     .child-container {
       max-width: 80%;
       min-width: 80%;
+    }
+    .footer-container{
+      position: absolute;
+      top:-600px;
     }
 
     .navbar.scrolled {
@@ -52,6 +55,8 @@
     {
       display: none;
     }
+
+
   }
 
   /* Desktop */
@@ -77,4 +82,5 @@
       padding-top: 250px;
     }
   }
+  
 }

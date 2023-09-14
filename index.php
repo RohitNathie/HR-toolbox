@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <!--- Head -->
 <?php include "./templates/head.php" ?>
 
@@ -12,11 +13,12 @@
   <!-- Parent container -->
   <div class="parent-container">
 
-    <!--- Particle.js -->
+    <!--- Particle.js --> 
     <div id="particles-js"> </div>
 
     <!--- Content -->
     <div class="child-container">
+      
       <div class="jumbotron m-0 p-0" style="margin-right: 300px; background-color: #ffffff00;">
         <h1 class="h-1 font-weight-bold" style="font-size: var(--banner-font-size);">HR TOOLBOX</h1>
         <p class="subtitle h-2 font-weight-800" style="color: var(--subtitle-font-color); font-size: var(--subtitle-font-size); font-weight: 600;">DE TOOLBOX VOOR HET MKB</p>
@@ -28,10 +30,14 @@
         </p>
         <!--- Content ends here -->
 
-        <!--- Footer -->
-        <?php include "./templates/footer.php" ?>
+        
       </div>
+
     </div>
+    </div>
+            <!--- Footer -->
+            <?php include "./templates/footer.php" ?> 
+
 </body>
 
 </html>
