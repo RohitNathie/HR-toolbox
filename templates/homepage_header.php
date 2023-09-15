@@ -6,7 +6,7 @@
         <nav class="inline-menu">
             <a href="index.php" class="nav-item">Home</a>
             <a href="" class="nav-item">Info</a>
-            <a href="tool-instruments.php" class="nav-item">Toolbox</a>
+            <a href="tool-selection.php" class="nav-item">Toolbox</a>
             <a href="" class="nav-item">Contact</a>
         </nav>
     </div>

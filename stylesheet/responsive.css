@@ -69,6 +69,10 @@
     .navbar-nav {
       padding-top: 250px;
     }
+
+    .navbar.scrolled {
+      background-color: #fff !important;
+    }
   }
 
   /* Large Desktop */
@@ -80,6 +84,10 @@
 
     .navbar-nav {
       padding-top: 250px;
+    }
+
+    .navbar.scrolled {
+      background-color: #fff !important;
     }
   }
   
