@@ -1,4 +1,6 @@
 /* Theme Settings */
+
+
 :root {
   /* Button Template */
   --btn-color: rgb(227, 163, 6);
@@ -46,6 +48,34 @@ body {
   z-index: 10; /* Overlays the div on top of particle.js */
   padding: 0px 30px;
 }
+.footer-container {
+  background-color: #0000AA;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%; /* Make the footer span the entire horizontal width */
+  position: absolute; /* Position it absolutely at the bottom */
+  bottom: 0; /* Place it at the bottom of the viewport */
+  left: 0; /* Start from the left edge */
+  right: 0; /* End at the right edge */
+  z-index: 2; /* Place the footer above the content */
+  top: 1100px;
+}
+
+.logo {
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: translateY(-10px);
+}
+
+.btn {
+  transition: transform 0.3s ease-in-out;
+}
+.btn:hover{
+  transform: translateY(-10px);
+}
 
 .btn {
   background-color: var(--btn-color); 
@@ -69,6 +99,18 @@ body {
     max-width: 100%;
     min-width: 100%;
   }
+  .footer-container {
+    text-align: center;
+    padding: 10px 0;
+    width: 100%; /* Make the footer span the entire horizontal width */
+    position: absolute; /* Position it absolutely at the bottom */
+    bottom: 0; /* Place it at the bottom of the viewport */
+    left: 0; /* Start from the left edge */
+    right: 0; /* End at the right edge */
+    z-index: 2; /* Place the footer above the content */
+    top: 1400px;
+  }
+  
 }
 
 /* Tablet */
@@ -76,6 +118,17 @@ body {
   .child-container {
     max-width: 80%;
     min-width: 80%;
+  }
+  .footer-container {
+    text-align: center;
+    padding: 10px 0;
+    width: 100%; /* Make the footer span the entire horizontal width */
+    position: absolute; /* Position it absolutely at the bottom */
+    bottom: 0; /* Place it at the bottom of the viewport */
+    left: 0; /* Start from the left edge */
+    right: 0; /* End at the right edge */
+    z-index: 2; /* Place the footer above the content */
+    top: 1400px;
   }
 }
 

@@ -65,9 +65,10 @@
             </div>
             <!--- Content ends here -->
 
-            <!--- Footer -->
-            <?php include "./templates/footer.php" ?>
+
         </div>
+                    <!--- Footer -->
+                    <?php include "./templates/footer.php" ?>
 </body>
 
 </html>

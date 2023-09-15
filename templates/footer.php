@@ -1,4 +1,31 @@
-<!-- Footer -->
+  <!-- Footer -->
+<div class="footer-container">
+  <footer style="background-color: #0000AA; color: #fff;" class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Contact</h4>
+          <address>
+            HR TOOLBOX<br>
+            123 Main Street<br>
+            City, State, ZIP<br>
+            Phone: (123) 456-7890<br>
+            Email: info@example.com
+          </address>
+        </div>
+        <div class="col-md-6 text-md-right">
+          <h4>Quick Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
 <!-- Particle.js CDN -->
 <script src="javascript/particles.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
