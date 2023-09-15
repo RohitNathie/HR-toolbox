@@ -21,43 +21,43 @@
         
 
             <div class="fluid-container row tool-selection-container" style="margin: 50px 0px 0px 0px;">
-                <a href="tool-instruments.php" class="col-lg-4 col-12 categorie-link">
+                <a href="behoud_top_10.php" class="col-lg-4 col-12 categorie-link">
                     <div class="text-center">
                         <h3>Behoud Top 10</h3>
                         <p style="margin-top: 10px;">Benieuwd hoe je medewerkers het beste kan behouden? Kijk snel verder!</p>
                     </div>
                 </a>
-                <a href="tool-instruments.php" class="col-lg-4 col-12 categorie-link">
+                <a href="gedragscode.php" class="col-lg-4 col-12 categorie-link">
                     <div class="text-center">
                         <h3>Gedragscode</h3>
                         <p style="margin-top: 10px;">Benieuwd hoe je afspraken maakt over waarden en normen met je medewerkers? Kijk snel verder!</p>
                     </div>
                 </a>
-                <a href="tool-instruments.php" class="col-lg-4 col-12 categorie-link">
+                <a href="gesprekken_met_medewerkers.php" class="col-lg-4 col-12 categorie-link">
                     <div class="text-center">
                         <h3>Gesprekken met medewerkers</h3>
                         <p style="margin-top: 10px;">Benieuwd naar de soorten gesprekken en hoe je ze voert met medewerkers? Kijk snel verder!</p>
                     </div>
                 </a>
-                <a href="tool-instruments.php" class="col-lg-4 col-4 col-12 categorie-link">
+                <a href="intervisie.php" class="col-lg-4 col-4 col-12 categorie-link">
                     <div class="text-center">
                         <h3>Intervisie</h3>
                         <p style="margin-top: 10px;">Benieuwd hoe intervisie kan helpen om concrete oplossingen te vinden voor problemen? Kijk snel verder!</p>
                     </div>
                 </a>
-                <a href="tool-instruments.php" class="col-lg-4 col-4 col-12 categorie-link">
+                <a href="leven_lang_ontwikkelen.php" class="col-lg-4 col-4 col-12 categorie-link">
                     <div class="text-center">
                         <h3>Leven Lang Ontwikkelen</h3>
                         <p style="margin-top: 10px;">Benieuwd hoe Leven Lang Ontwikkelen in je organisatie een plek kan krijgen? Kijk snel verder!</p>
                     </div>
                 </a>
-                <a href="tool-instruments.php" class="col-lg-4 col-4 col-12 categorie-link">
+                <a href="strategische_personeelsplanning.php" class="col-lg-4 col-4 col-12 categorie-link">
                     <div class="text-center">
                         <h3>Strategische personeelsplanning</h3>
                         <p style="margin-top: 10px;">Benieuwd hoe je je personeelsbestand kan afstemmen op de doelen van je bedrijf? Kijk snel verder!</p>
                     </div>
                 </a>
-                <a href="tool-instruments.php" class="col-lg-4 col-4 col-12 categorie-link">
+                <a href="vitaliteit.php" class="col-lg-4 col-4 col-12 categorie-link">
                     <div class="text-center">
                         <h3>Vitaliteit</h3>Benieuwd hoe je medewerkers behoudt door aan de slag te gaan met vitaliteit? Kijk snel verder!</p>
                     </div>
