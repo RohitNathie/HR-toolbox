@@ -1,6 +1,6 @@
   <!-- Footer -->
 <div class="footer-container">
-  <footer style="background-color: #0000AA; color: #fff;" class="py-4">
+  <footer style="background-color: rgba(0,38,85,0.8);" class="py-4">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
