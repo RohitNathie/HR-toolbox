@@ -2,19 +2,19 @@
   <div class="footer-container">
     <footer class="">
       <div class="container">
-        <div class="row m-3 text-center">
+        <div class="row mb-3 text-center">
           <div class="col-md-12">
-            <img src="resources/images/logo-white.svg" alt="Logo" class="footer-logo" style="width: 200px;">
+            <a href="index.php"><img src="resources/images/logo-white.svg" alt="VNO NCW Midden Logo" class="footer-logo" style="width: 150px; margin-top: 20px;"></a>
           </div>
         </div>
 
-        <div class="row border-top pt-3">
+        <div class="row pt-3">
           <div class="col-md-6">
             <b>Contact</b>
             <p>Boogschutterstraat 1c<br>
             7324 AE Apeldoorn<br>
-            +31555222606<br>
-            info@vno-ncwmidden.nl</p>
+            <a href="tel:31555222606">+31555222606</a><br>
+            <a href="mailto:info@vno-ncwmidden.nl">info@vno-ncwmidden.nl</a></p>
           </div>
           <div class="col-md-6 text-right">
             <b>HR Toolbox</b>

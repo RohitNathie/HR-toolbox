@@ -5,9 +5,9 @@
     <div class="col-10 flex-grow-1">
         <nav class="inline-menu">
             <a href="index.php" class="nav-item">Home</a>
-            <a href="" class="nav-item">Info</a>
+            <a href="info.php" class="nav-item">Info</a>
             <a href="tool-selection.php" class="nav-item">Toolbox</a>
-            <a href="" class="nav-item">Contact</a>
+            <a href="contact.php" class="nav-item">Contact</a>
         </nav>
     </div>
     <button class="navbar-toggler close border-0 navbarSideCollapse" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">

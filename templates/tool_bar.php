@@ -1,5 +1,6 @@
 <div class="tool-bar mt-3 col-12 flex-grow-1 d-flex text-center" id="navbar-toolbar">
-<div class="col-4 tool-link">
+    <div class="col-4 tool-link">
+        <!-- Let op! Er moet nog een fallback gemaakt worden voor history.back, voor het geval als er geen history is. -->
         <button onclick="history.back()" style="text-decoration: none; border: none; background-color: #fff0;" class="text-dark">
             <div class="display-4">
                 <i class="bi bi-arrow-left-short icon"></i>
@@ -7,7 +8,7 @@
             <div class="d-none d-xl-block">
                 <h6 class="p-2">Terug</h4>
             </div>
-</button>
+        </button>
     </div>
 
     <div class="col-4 flex-grow-1 tool-link">
