@@ -1,4 +1,15 @@
 <div class="tool-bar mt-3 col-12 flex-grow-1 d-flex text-center" id="navbar-toolbar">
+<div class="col-4 tool-link">
+        <button onclick="history.back()" style="text-decoration: none; border: none; background-color: #fff0;" class="text-dark">
+            <div class="display-4">
+                <i class="bi bi-arrow-left-short icon"></i>
+            </div>
+            <div class="d-none d-xl-block">
+                <h6 class="p-2">Terug</h4>
+            </div>
+</button>
+    </div>
+
     <div class="col-4 flex-grow-1 tool-link">
         <a href="/instroom.php" style="text-decoration: none;" class="text-dark">
             <div class="display-4">

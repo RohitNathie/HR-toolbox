@@ -1,6 +1,5 @@
 /* Theme Settings */
 
-
 :root {
   /* Button Template */
   --btn-color: rgb(227, 163, 6);
@@ -21,7 +20,11 @@
 /* Global Styles */
 body {
   background-color: rgb(0, 0, 0);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer-container .border-top {
+  border-top: 1px solid #ffffff6a !important;
 }
 
 .particles-js-canvas-el {
@@ -29,7 +32,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background: url('../resources/images/background.jpg'), linear-gradient(48deg, rgba(255,255,255,1) 25%, rgb(154, 190, 197) 100%);;
+  background: url("../resources/images/background.jpg"),
+    linear-gradient(48deg, rgba(255, 255, 255, 1) 25%, rgb(154, 190, 197) 100%);
+  
 }
 
 /* Important Parent Elements */
@@ -42,25 +47,29 @@ body {
 
 /* Important Child Elements */
 .child-container {
-  position: absolute; /* Makes sure the content is on top of the particle.js */
-  top: 0; /* Ensures it's always fixed to the top of the window, through the entire page. */ 
-  margin: 200px auto; /* Centers the content and creates equal top and bottom margins. */
   z-index: 10; /* Overlays the div on top of particle.js */
-  padding: 0px 30px;
+  padding: 40px 30px;
+  margin-top: 200px;
 }
+
 .footer-container {
-  /* background-color: #002656; */
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
+  position: relative;
+  color: white;
+  margin-top: 100px;
+  padding: 20px 0px 10px 0px;
+  background-color: #00285b;
+  text-align: left;
   width: 100%; /* Make the footer span the entire horizontal width */
-  position: absolute; /* Position it absolutely at the bottom */
-  bottom: 0; /* Place it at the bottom of the viewport */
-  left: 0; /* Start from the left edge */
-  right: 0; /* End at the right edge */
-  z-index: 2; /* Place the footer above the content */
-  top: 1100px;
+  z-index: 11; /* Place the footer above the content */
   /* background-color: rgba(0,38,85,0.8); */
+}
+
+.footer-container a {
+  color: white;
+}
+
+.footer-container a:hover {
+  color: orange;
 }
 
 .logo {
@@ -74,15 +83,15 @@ body {
 .btn {
   transition: transform 0.3s ease-in-out;
 }
-.btn:hover{
+.btn:hover {
   transform: translateY(-10px);
 }
 
 .btn {
-  background-color: var(--btn-color); 
-  color: var(--btn-fnt-color) !important; 
-  border-radius: var(--btn-radius); 
-  width: var(--btn-width); 
+  background-color: var(--btn-color);
+  color: var(--btn-fnt-color) !important;
+  border-radius: var(--btn-radius);
+  width: var(--btn-width);
   font-weight: var(--btn-font-weight) !important;
   transition: 0.3s ease-in-out;
 }
@@ -100,18 +109,7 @@ body {
     max-width: 100%;
     min-width: 100%;
   }
-  .footer-container {
-    text-align: center;
-    padding: 10px 0;
-    width: 100%; /* Make the footer span the entire horizontal width */
-    position: absolute; /* Position it absolutely at the bottom */
-    bottom: 0; /* Place it at the bottom of the viewport */
-    left: 0; /* Start from the left edge */
-    right: 0; /* End at the right edge */
-    z-index: 2; /* Place the footer above the content */
-    top: 1400px;
-  }
-  
+
 }
 
 /* Tablet */
@@ -120,17 +118,7 @@ body {
     max-width: 80%;
     min-width: 80%;
   }
-  .footer-container {
-    text-align: center;
-    padding: 10px 0;
-    width: 100%; /* Make the footer span the entire horizontal width */
-    position: absolute; /* Position it absolutely at the bottom */
-    bottom: 0; /* Place it at the bottom of the viewport */
-    left: 0; /* Start from the left edge */
-    right: 0; /* End at the right edge */
-    z-index: 2; /* Place the footer above the content */
-    top: 1400px;
-  }
+
 }
 
 /* Desktop */
@@ -151,24 +139,43 @@ body {
 
 /* Navbar animation */
 .navbar {
-    transition: 0.3s ease-in-out;
-    max-height: 200px;
-    transition-timing-function: cubic-bezier(5, 0, 0.2, 1); }
+  margin-bottom: 150px;
+  transition: 0.3s ease-in-out;
+  min-height: 200px;
+  transition-timing-function: cubic-bezier(5, 0, 0.2, 1);
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8603816526610644) 66%,
+    rgba(213, 248, 255, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8603816526610644) 66%,
+    rgba(213, 248, 255, 0) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8603816526610644) 66%,
+    rgba(213, 248, 255, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#d5f8ff",GradientType=1);
+}
 
 .logo {
-    z-index: 9999;
-    transition: 0.3s ease-in-out;
-    height: 110px;
-    transition-timing-function: cubic-bezier(5, 0, 0.2, 1); }
+  z-index: 9999;
+  transition: 0.3s ease-in-out;
+  height: 110px;
+  transition-timing-function: cubic-bezier(5, 0, 0.2, 1);
+}
 
 .close {
-    transition: 0.3s ease-in-out; }
-
+  transition: 0.3s ease-in-out;
+}
 
 /* Particle.js Container */
 .particles-js-canvas-el {
-
-  z-index: 0; /* Underlays the entire page */
+  z-index: 1; /* Underlays the entire page */
   position: fixed; /* Ensures the banner is always on the person's view. */
   top: 0; /* Ensures it's always fixed to the top of the window, through the entire page. */
   left: 0;
@@ -207,7 +214,7 @@ body {
 }
 
 .off-canvas-item a {
-    color: white;
+  color: white;
 }
 
 .nav-item.off-canvas-item ul li a:hover {
@@ -243,15 +250,15 @@ body {
 .categorie-link {
   bottom: 0;
   transition: 0.5s;
-  padding: 40px;
-  width:100%;
+  padding: 15px;
+  width: 100%;
   min-width: 175px;
   min-height: 150px;
 }
 
 .categorie-link:hover {
   background-color: white;
-  transform: scale(1.00);
+  transform: scale(1);
   bottom: 5px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 20px 25px -5px,
@@ -284,7 +291,6 @@ a:hover .icon {
   display: flex;
   justify-content: center;
   gap: 10px;
-
 }
 
 .link-container h3 {
@@ -301,20 +307,19 @@ a:hover .icon {
   color: orange;
 }
 /* Miscellaneous */
-.categorie-link  {
-  text-decoration: none ;
-  color: black ;
-  font-weight: lighter ;
+.categorie-link {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
 }
 
-.categorie-link a:hover  {
+.categorie-link a:hover {
   color: orange;
   text-decoration: none !important;
 }
- /* h3{
+/* h3{
   all:unset !important;
  } */
-
 
 /* Tool Selection Container at Tool-Categories */
 .tool-selection-container {
@@ -328,7 +333,7 @@ a:hover .icon {
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top:-50px;
+  margin-top: -50px;
 }
 
 .tool-selection-container .col-3 {
@@ -337,13 +342,9 @@ a:hover .icon {
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
 
-
 /* Tool Instruments Container at Tool-Instruments.php */
-
-
 
 .instruments-menu .col {
   font-size: 1.7em;
@@ -355,6 +356,9 @@ a:hover .icon {
   margin: 0px 0px 0px 0px;
 }
 
+.instruments-menu li {
+  font-size: 18px;
+}
 
 /* Link overwrites */
 
@@ -381,7 +385,6 @@ a:hover .icon {
   justify-content: left !important;
 }
 
-
 /* Tool Instruments Container at Tool-Categories / Instroom / Uitstroom / Doorstroom.php */
 .tool-selection-container > a {
   text-decoration: none !important;
@@ -398,13 +401,13 @@ a:hover .icon {
 }
 
 .categorie-link {
-  width: 150px;
-  height: 150px;
-  max-height: 150px;
-  max-width: 150px;
+  min-width: 200px;
+  min-height: 200px;
+  max-height: 250px;
+  max-width: 250px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
 }
 
@@ -416,14 +419,9 @@ a:hover .icon {
 .navbar-toggler {
   position: absolute;
   right: 45px;
-  top: 70px;
+  top: 80px;
   transition: 0.3s;
   font-weight: 800;
-}
-
-
-.navbar .col-4 {
-  position: static;
 }
 
 .tool-bar {
@@ -452,26 +450,24 @@ a:hover .icon {
   flex: 0;
 }
 
-
 /* Navbar */
 .inline-menu a {
   color: rgba(16, 34, 86, 1);
   font-size: 1.2em;
-  padding: 0px 7px;
+  padding: 5px 7px 0px 7px;
   text-decoration: none;
-  text-transform: uppercase;}
+  text-transform: uppercase;
+}
 
 .inline-menu a:hover {
   color: orange;
   text-decoration: none;
 }
 
-.active *
-{
+.inline-menu {
+  padding-top: 20px;
+}
+
+.active * {
   color: orange;
 }
-
-.navbar.scrolled {
-  background-color: #fff !important;
-}
-

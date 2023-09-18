@@ -32,29 +32,41 @@
                 <div class="instruments-menu col-lg-4 col-12 flex-shrink-1">
                     <div class="col"><i class="bi bi-person-add"></i> TIPS & TRICKS</div>
                     <ul>
-                    <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Tips voor een goed gesprek</li></a>
+                        <a href="resources/pdf/download-template.pdf" download>
+                            <li><i class="bi bi-download"></i> Tips voor een goed gesprek</li>
+                        </a>
                     </ul>
                     <div class="col"><i class="bi bi-person-gear"></i> INSTRUMENTEN</div>
                     <ul>
-                        <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Planningsgesprek</li></a>
-                        <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Ontwikkelgesprek</li></a>
-                        <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Beloningsgesprekken</li></a>
-                        <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Medewerkerstevredenheidsmonitor</li></a>
+                        <a href="resources/pdf/download-template.pdf" download>
+                            <li><i class="bi bi-download"></i> Planningsgesprek</li>
+                        </a>
+                        <a href="resources/pdf/download-template.pdf" download>
+                            <li><i class="bi bi-download"></i> Ontwikkelgesprek</li>
+                        </a>
+                        <a href="resources/pdf/download-template.pdf" download>
+                            <li><i class="bi bi-download"></i> Beloningsgesprekken</li>
+                        </a>
+                        <a href="resources/pdf/download-template.pdf" download>
+                            <li><i class="bi bi-download"></i> Medewerkerstevredenheidsmonitor</li>
+                        </a>
                     </ul>
                     <div class="col"><i class="bi bi-person-check"></i> IMPLEMENTATIEPLAN</div>
                     <ul>
-                        <a href="resources/pdf/download-template.pdf" download><li><i class="bi bi-download"></i> Ontwikkelgesprekken</li></a>
+                        <a href="resources/pdf/download-template.pdf" download>
+                            <li><i class="bi bi-download"></i> Ontwikkelgesprekken</li>
+                        </a>
                     </ul>
                     <div class="col"><i class="bi bi-person-down"></i> VOORBEELD</div>
-                    </div>
                 </div>
             </div>
-            <!--- Content ends here -->
-
-            <!--- Footer -->
-            <?php include "./templates/footer.php" ?>
         </div>
+        <!--- Content ends here -->
+
+        <!--- Footer -->
     </div>
+    <?php include "./templates/footer.php" ?>
+
 </body>
 
 </html>
