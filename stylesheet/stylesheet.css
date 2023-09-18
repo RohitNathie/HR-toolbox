@@ -151,7 +151,7 @@ body {
 /* Navbar animation */
 .navbar {
     transition: 0.3s ease-in-out;
-    max-height: 140px;
+    max-height: 200px;
     transition-timing-function: cubic-bezier(5, 0, 0.2, 1); }
 
 .logo {
@@ -469,3 +469,8 @@ a:hover .icon {
 {
   color: orange;
 }
+
+.navbar.scrolled {
+  background-color: #fff !important;
+}
+

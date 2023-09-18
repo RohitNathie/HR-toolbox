@@ -5,7 +5,6 @@
 <?php include "./templates/head.php" ?>
 
 <body>
-
     <!--- Header -->
     <?php include "./templates/tool_header.php" ?>
 
@@ -51,9 +50,6 @@
                 </a>
             </div>
             <!--- Content ends here -->
-
-
-
         </div>
     </div>
                 <!--- Footer -->
