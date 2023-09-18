@@ -19,13 +19,13 @@
         <div class="child-container">
             <?php include "./templates/tool_bar.php" ?>
             <div class="fluid-container row tool-selection-container" style="margin: 50px 0px 0px 0px;">
-                <a href="exitgesprek.php" class="col-lg-6 col-12 categorie-link">
+                <a href="exitgesprek.php" class="col-lg-4 col-12 categorie-link">
                     <div class="text-center">
                         <h3>Exitgesprek</h3>
                         <p style="margin-top: 10px;">Benieuwd hoe je een goed gesprek voert bij afscheid van een medewerker? Kijk snel verder!</p>
                     </div>
                 </a>
-                <a href="verzuim.php" class="col-lg-6 col-12 categorie-link">
+                <a href="verzuim.php" class="col-lg-4 col-12 categorie-link">
                     <div class="text-center">
                         <h3>Verzuim</h3>
                         <p style="margin-top: 10px;">Benieuwd hoe je uitval van medewerkers kan voorkomen? Kijk snel verder!</p>
@@ -40,7 +40,7 @@
         </div>
     </div>
     <!--- Footer -->
-</body>
     <?php include "./templates/footer.php" ?>
+</body>
 
 </html>

@@ -43,9 +43,9 @@
             <!--- Content ends here -->
 
             <!--- Footer -->
-            <?php include "./templates/footer.php" ?>
         </div>
     </div>
+            <?php include "./templates/footer.php" ?>
 </body>
 
 </html>
