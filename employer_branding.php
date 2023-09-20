@@ -31,12 +31,12 @@
                 <div class="instruments-menu col-lg-4 col-12 flex-shrink-1">
                     <div class="col"><i class="bi bi-person-gear"></i> INSTRUMENTEN</div>
                     <ul>
-                        <a href="resources/pdf/VNO-NCW Employer Branding def.pdf" download><li><i class="bi bi-download"></i> employer branding</li></a>
+                        <a href="resources/pdf/VNO-NCW Employer Branding def.pdf" download><li><i class="bi bi-download"></i> Download Instrument</li></a>
                     
                     </ul>
                     <div class="col"><i class="bi bi-person-check"></i> IMPLEMENTATIEPLAN</div>
                     <ul>
-                        <a href="resources/pdf/VNO-NCW Implementatieplan Employer Branding def.pdf" download><li><i class="bi bi-download"></i> employer branding</li></a>
+                        <a href="resources/pdf/VNO-NCW Implementatieplan Employer Branding def.pdf" download><li><i class="bi bi-download"></i> Download Implementatieplan</li></a>
                     </ul>
                 </div>
             </div>

@@ -32,7 +32,7 @@
                    
                     <div class="col"><i class="bi bi-person-gear"></i> INSTRUMENTEN</div>
                     <ul>
-                        <a href="resources/pdf/VNO-NCW Instrument gedragscode def.pdf" download><li><i class="bi bi-download"></i> Gedragscode</li></a>
+                        <a href="resources/pdf/VNO-NCW Instrument gedragscode def.pdf" download><li><i class="bi bi-download"></i> Download Instrument</li></a>
                      
                     </ul>
                    

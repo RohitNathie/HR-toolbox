@@ -65,6 +65,7 @@ body {
   padding: 20px 0px 10px 0px;
   background-color: #00285b;
   text-align: left;
+  opacity:0.8;
   width: 100%; /* Make the footer span the entire horizontal width */
   z-index: 11; /* Place the footer above the content */
   /* background-color: rgba(0,38,85,0.8); */

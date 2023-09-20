@@ -31,7 +31,7 @@
                 <div class="instruments-menu col-lg-4 col-12 flex-shrink-1">
                     <div class="col"><i class="bi bi-person-add"></i> TIPS & TRICKS</div>
                     <ul>
-                    <a href="resources/pdf/VNO-NCW Instrument Behoud top 10 lijst def.pdf" download><li><i class="bi bi-download"></i> Behoud top 10</li></a>
+                    <a href="resources/pdf/VNO-NCW Instrument Behoud top 10 lijst def.pdf" download><li><i class="bi bi-download"></i> Download Tips & Tricks</li></a>
                     </ul>
                 </div>
             </div>

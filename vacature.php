@@ -32,11 +32,11 @@
                 
                     <div class="col"><i class="bi bi-person-gear"></i> INSTRUMENTEN</div>
                     <ul>
-                        <a href="resources/pdf/VNO-NCW Instrument Intake wiel vacature def.pdf" download><li><i class="bi bi-download"></i> intake wiel</li></a>
+                        <a href="resources/pdf/VNO-NCW Instrument Intake wiel vacature def.pdf" download><li><i class="bi bi-download"></i> Download Instrument</li></a>
                     </ul>
                     <div class="col"><i class="bi bi-person-down"></i> VOORBEELD</div>
                     <ul>
-                        <a href="resources/pdf/VNO-NCW Instrument coachleidraad eigen regie duurzame inzetbaarheid def.pdf" download><li><i class="bi bi-download"></i> werving Hoppenbrouwers</li></a>
+                        <a href="resources/pdf/VNO-NCW Instrument coachleidraad eigen regie duurzame inzetbaarheid def.pdf" download><li><i class="bi bi-download"></i> Download Implementatieplan</li></a>
                     </ul>
                     </div>
                 </div>

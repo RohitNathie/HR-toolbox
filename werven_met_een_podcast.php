@@ -31,15 +31,15 @@
                 <div class="instruments-menu col-lg-4 col-12 flex-shrink-1">
                     <div class="col"><i class="bi bi-person-add"></i> TIPS & TRICKS</div>
                     <ul>
-                    <a href="resources/pdf/VNO-NCW Stappenplan werven met een podcast def.pdf" download><li><i class="bi bi-download"></i> Werven met een podcast</li></a>
+                    <a href="resources/pdf/VNO-NCW Stappenplan werven met een podcast def.pdf" download><li><i class="bi bi-download"></i> Download Tips & Tricks</li></a>
                     </ul>
                     <div class="col"><i class="bi bi-person-gear"></i> INSTRUMENTEN</div>
                     <ul>
-                        <a href="resources/pdf/VNO-NCW Informatie brochure Werken bij FM X VNO NCW MIDDEN def.pdf" download><li><i class="bi bi-download"></i> Informatie brochure werkenbij.fm</li></a>
+                        <a href="resources/pdf/VNO-NCW Informatie brochure Werken bij FM X VNO NCW MIDDEN def.pdf" download><li><i class="bi bi-download"></i> Download Instrumenten</li></a>
                     </ul>
                     <div class="col"><i class="bi bi-person-down"></i> VOORBEELD</div>
                     <ul>
-                        <a href="resources/pdf/VNO-NCW Voorbeeld werkgever vitaliteit def.pdf" download><li><i class="bi bi-download"></i>  Werkgever Dormakaba</li></a>
+                        <a href="resources/pdf/VNO-NCW Voorbeeld werkgever vitaliteit def.pdf" download><li><i class="bi bi-download"></i>  Download Voorbeeld</li></a>
                     </ul>
                     </div>
                 </div>

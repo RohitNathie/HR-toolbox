@@ -31,13 +31,13 @@
                 <div class="instruments-menu col-lg-4 col-12 flex-shrink-1">
                     <div class="col"><i class="bi bi-person-gear"></i> INSTRUMENTEN</div>
                     <ul>
-                        <a href="resources/pdf/VNO-NCW Checklist voor diversiteit & inclusief hrm binnen de organisatie def.pdf" download><li><i class="bi bi-download"></i> Checklist inclusief</li></a>
-                        <a href="resources/pdf/VNO-NCW Inclusief werkgeverschap def.pdf" download><li><i class="bi bi-download"></i> Inclusief</li></a>
+                        <a href="resources/pdf/VNO-NCW Checklist voor diversiteit & inclusief hrm binnen de organisatie def.pdf" download><li><i class="bi bi-download"></i> Download Checklist Inclusief</li></a>
+                        <a href="resources/pdf/VNO-NCW Inclusief werkgeverschap def.pdf" download><li><i class="bi bi-download"></i> Download Inclusief</li></a>
                       
                     </ul>
                     <div class="col"><i class="bi bi-person-down"></i> VOORBEELD</div>
                     <ul>
-                        <a href="resources/pdf/VNO-NCW Inclusief werkgeverschap def.pdf" download><li><i class="bi bi-download"></i> Werkgevers</li></a>
+                        <a href="resources/pdf/VNO-NCW Inclusief werkgeverschap def.pdf" download><li><i class="bi bi-download"></i> Download Voorbeeld</li></a>
         
                     </ul>
                     </div>
