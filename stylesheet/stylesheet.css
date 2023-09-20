@@ -488,14 +488,3 @@ a:hover .icon {
 .active * {
   color: orange;
 }
-
-
-.small_logo {
-  height: 70px;
-  width: auto;
-  margin: 10px;
-}
-
-.back-link * {
-  float: left;
-}

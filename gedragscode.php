@@ -5,10 +5,12 @@
 <?php include "./templates/head.php" ?>
 
 <body>
+
     <!--- Header -->
     <?php include "./templates/tool_header.php" ?>
     <!-- Parent container -->
     <div class="parent-container">
+
 
         <!--- Particle.js -->
         <div id="particles-js"> </div>
@@ -27,11 +29,13 @@
                 </div>
 
                 <div class="instruments-menu col-lg-4 col-12 flex-shrink-1">
+                   
                     <div class="col"><i class="bi bi-person-gear"></i> INSTRUMENTEN</div>
                     <ul>
-                        <a href="resources/pdf/VNO-NCW Instrument gedragscode def.pdf" download><li><i class="bi bi-download"></i> Gedragscode</li></a>
+                        <a href="resources/pdf/VNO-NCW Instrument gedragscode def.pdf" download><li><i class="bi bi-download"></i> Download Instrument</li></a>
                      
                     </ul>
+                   
                 </div>
             </div>
             <!--- Content ends here -->
@@ -39,7 +43,7 @@
             <!--- Footer -->
         </div>
     </div>
-    <?php include "./templates/footer.php" ?>
+            <?php include "./templates/footer.php" ?>
 </body>
 
 </html>
