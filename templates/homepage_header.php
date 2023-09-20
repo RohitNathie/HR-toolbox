@@ -35,14 +35,14 @@
             </li>
 
             <li class="nav-item off-canvas-item">
-                <a class="nav-link active" aria-current="page" href="#" style="font-size: 40px">Info
+                <a class="nav-link active" aria-current="page" href="/info.php" style="font-size: 40px">Info
                 </a>
             </li>
             <li class="nav-item off-canvas-item">
-                <a class="nav-link" href="tool-selection.php" style="font-size: 40px">Toolbox</a>
+                <a class="nav-link" href="/tool-selection.php" style="font-size: 40px">Toolbox</a>
             </li>
             <li class="nav-item off-canvas-item">
-                <a class="nav-link" href="#" style="font-size: 40px;">Contact</a>
+                <a class="nav-link" href="/contact.php" style="font-size: 40px;">Contact</a>
             </li>
         </div>
     </div>
