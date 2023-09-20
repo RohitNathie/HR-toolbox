@@ -22,7 +22,7 @@
                 <div class="row text-secondary">
                     <div class="col-12 text-center">
                         <h1 class="mt-2 pb-2 text-dark">Ik zoek een tool voor?</h1>
-                        <p class="lead">In-, door- en uitstroom vormen de kern van het HRr-beleid van jouw onderneming. Het is het proces hoe medewerkers hun loopbaan bij je doorlopen. Om je hierbij te helpen hebben we bij instrumenten ontwikkeld om snel van start te gaan met bijvoorbeeld andere manieren van werven, gesprekken voeren met medewerkers over hun ontwikkeling en hoe je verzuim kunt voorkomen. Er zijn instrumenten, tips en trucs-lijstjes, implementatieplannen en voorbeelden van andere werkgevers te vinden. Blader door de pagina’s en download wat jij nodig hebt.</p>
+                        <p class="lead">In-, door- en uitstroom vormen de kern van het HR-beleid van jouw onderneming. Het is het proces hoe medewerkers hun loopbaan bij je doorlopen. Om je hierbij te helpen hebben we bij instrumenten ontwikkeld om snel van start te gaan met bijvoorbeeld andere manieren van werven, gesprekken voeren met medewerkers over hun ontwikkeling en hoe je verzuim kunt voorkomen. Er zijn instrumenten, tips en trucs-lijstjes, implementatieplannen en voorbeelden van andere werkgevers te vinden. Blader door de pagina’s en download wat jij nodig hebt.</p>
                     </div>
                 </div>
                 <div class="row d-flex m-5 text-center">
