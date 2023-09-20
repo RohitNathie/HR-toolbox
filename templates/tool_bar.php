@@ -1,11 +1,15 @@
         <!-- Let op! Er moet nog een fallback gemaakt worden voor history.back, voor het geval als er geen history is. -->
-        <button onclick="history.back()" style="text-decoration: none; border: none; background-color: #fff0;" class="text-dark">
+       
+  
+<div class="tool-bar mt-3 col-12 flex-grow-1 d-flex text-center" id="navbar-toolbar">
+<div style="position: absolute; left:20px; top:10px;"
+      <button onclick="history.back()" style="text-decoration: none; border: none; background-color: #fff0;" class="text-dark">
             <div class="display-4">
                 <i class="bi bi-arrow-left-short icon"></i> <h6 class="p-2 text-center">Terug</h4>
             </div>
         </button>
+    </div>
 
-<div class="tool-bar mt-3 col-12 flex-grow-1 d-flex text-center" id="navbar-toolbar">
 
 
     <div class="col-4 flex-grow-1 tool-link">
