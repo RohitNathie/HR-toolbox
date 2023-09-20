@@ -31,11 +31,11 @@
                 <div class="instruments-menu col-lg-4 col-12 flex-shrink-1">
                     <div class="col"><i class="bi bi-person-add"></i> TIPS & TRICKS</div>
                     <ul>
-                    <a href="resources/pdf/VNO-NCW Stappenplan intervisiebijeenkomst def.pdf" download><li><i class="bi bi-download"></i> Download Tips & Tricks</li></a>
+                    <a href="resources/pdf/VNO-NCW Stappenplan intervisiebijeenkomst def.pdf" download><li><i class="bi bi-download"></i> Stappenplan intervisiebijeenkomst</li></a>
                     </ul>
                     <div class="col"><i class="bi bi-person-gear"></i> INSTRUMENTEN</div>
                     <ul>
-                        <a href="resources/pdf/VNO-NCW Instrument Intervisie def.pdf" download><li><i class="bi bi-download"></i> Download Instrument</li></a>
+                        <a href="resources/pdf/VNO-NCW Instrument Intervisie def.pdf" download><li><i class="bi bi-download"></i> Intervisie</li></a>
                     </ul>
 
                     </div>
