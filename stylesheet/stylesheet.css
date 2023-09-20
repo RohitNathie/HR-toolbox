@@ -499,10 +499,8 @@ a:hover .icon {
   width:200px;
 }
 
-.back-link * {
-  float: left;
-}
 
-.back-link:hover{
+.back-button:hover .back-button {
   color: orange;
+  cursor: pointer;
 }
