@@ -31,7 +31,7 @@
                 <div class="instruments-menu col-lg-4 col-12 flex-shrink-1">
                     <div class="col"><i class="bi bi-person-gear"></i> INSTRUMENTEN</div>
                     <ul>
-                        <a href="resources/pdf/stappen" download><li><i class="bi bi-download"></i> Download Instrument</li></a>
+                        <a href="resources/pdf/VNO-NCW Instrument Orientatiescan def.pdf" download><li><i class="bi bi-download"></i> Download Instrument</li></a>
                     </ul>
                     <div class="col"><i class="bi bi-person-down"></i> VOORBEELD</div>
                     <ul>

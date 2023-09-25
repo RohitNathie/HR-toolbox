@@ -36,7 +36,7 @@
                     </ul>
                     <div class="col"><i class="bi bi-person-down"></i> VOORBEELD</div>
                     <ul>
-                        <a href="resources/pdf/VNO-NCW Instrument coachleidraad eigen regie duurzame inzetbaarheid def.pdf" download><li><i class="bi bi-download"></i> Download Voorbeeld</li></a>
+                        <a href="resources/pdf/VNO-NCW voorbeeld werving hoppenbrouwers def.pdf" download><li><i class="bi bi-download"></i> Download Voorbeeld</li></a>
                     </ul>
                     </div>
                 </div>

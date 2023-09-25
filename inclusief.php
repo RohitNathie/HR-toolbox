@@ -35,13 +35,13 @@
                             <li><i class="bi bi-download"></i> Download Checklist Inclusief</li>
                         </a>
                         <a href="resources/pdf/VNO-NCW Inclusief werkgeverschap def.pdf" download>
-                            <li><i class="bi bi-download"></i> Download Inclusief</li>
+                            <li><i class="bi bi-download"></i> Download Instrument: Hoe werkt het?</li>
                         </a>
 
                     </ul>
                     <div class="col"><i class="bi bi-person-down"></i> VOORBEELD</div>
                     <ul>
-                        <a href="resources/pdf/VNO-NCW Inclusief werkgeverschap def.pdf" download>
+                        <a href="resources/pdf/VNO-NCW Voorbeeld wergver Inclusief def.pdf" download>
                             <li><i class="bi bi-download"></i> Download Voorbeeld</li>
                         </a>
 
